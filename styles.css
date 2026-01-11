@@ -1,0 +1,57 @@
+/* Career Referee - Modern UI Styling */
+
+:root {
+    --primary-color: #2E86AB;
+    --secondary-color: #A23B72; 
+    --background: #F8F9FA;
+    --card-background: #FFFFFF;
+    --text-primary: #2C3E50;
+    --text-secondary: #7F8C8D;
+    --border-color: #E9ECEF;
+}
+
+/* Override Streamlit defaults */
+.stApp {
+    background-color: var(--background);
+}
+
+/* Career comparison cards */
+.career-card {
+    background: var(--card-background);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+/* Decision guide styling */
+.decision-guide {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 24px;
+}
+
+/* Input form styling */
+.input-form {
+    background: var(--card-background);
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.stButton > button:hover {
+    background-color: var(--secondary-color);
+    border: none;
+}
